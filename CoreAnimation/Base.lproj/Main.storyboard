@@ -42,6 +42,16 @@
                                     <segue destination="zn6-F2-aas" kind="push" id="c4f-CJ-8Nk"/>
                                 </connections>
                             </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cYA-NI-Hjq">
+                                <rect key="frame" x="80" y="247" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="时间函数">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dHb-ry-0Fy" kind="push" id="TVa-PG-9Mt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -74,6 +84,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bjw-Yd-hUO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1033" y="259"/>
+        </scene>
+        <!--Timing Function View Controller-->
+        <scene sceneID="kKK-AK-EIO">
+            <objects>
+                <viewController id="dHb-ry-0Fy" customClass="WGTimingFunctionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z1O-c2-zgR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aim.png" id="CLL-c1-YMr">
+                                <rect key="frame" x="0.0" y="260" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pDJ-Yc-Fud"/>
+                    <connections>
+                        <outlet property="movingImageView" destination="CLL-c1-YMr" id="wgT-0a-r1F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7yI-4y-rCW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1034" y="1060"/>
         </scene>
         <!--Basic Animation View Controller-->
         <scene sceneID="ufC-wZ-h7g">

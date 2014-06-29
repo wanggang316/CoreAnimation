@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D635B8F6195FDFE1006D0E22 /* WGTimingFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D635B8F5195FDFE1006D0E22 /* WGTimingFunctionViewController.m */; };
 		D6858316195A6365008CB9D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6858315195A6365008CB9D1 /* Foundation.framework */; };
 		D6858318195A6365008CB9D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6858317195A6365008CB9D1 /* CoreGraphics.framework */; };
 		D685831A195A6365008CB9D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6858319195A6365008CB9D1 /* UIKit.framework */; };
@@ -117,6 +118,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D635B8F4195FDFE1006D0E22 /* WGTimingFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTimingFunctionViewController.h; sourceTree = "<group>"; };
+		D635B8F5195FDFE1006D0E22 /* WGTimingFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTimingFunctionViewController.m; sourceTree = "<group>"; };
 		D6858312195A6365008CB9D1 /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6858315195A6365008CB9D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D6858317195A6365008CB9D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -295,6 +298,8 @@
 				D68583EF195A79FD008CB9D1 /* WGKeyFrameViewController.m */,
 				D68583F1195A9077008CB9D1 /* WGKeyFrameForPathViewController.h */,
 				D68583F2195A9077008CB9D1 /* WGKeyFrameForPathViewController.m */,
+				D635B8F4195FDFE1006D0E22 /* WGTimingFunctionViewController.h */,
+				D635B8F5195FDFE1006D0E22 /* WGTimingFunctionViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -597,6 +602,7 @@
 				D68583F3195A9077008CB9D1 /* WGKeyFrameForPathViewController.m in Sources */,
 				D685832C195A6366008CB9D1 /* WGViewController.m in Sources */,
 				D6858326195A6365008CB9D1 /* WGAppDelegate.m in Sources */,
+				D635B8F6195FDFE1006D0E22 /* WGTimingFunctionViewController.m in Sources */,
 				D68583F0195A79FD008CB9D1 /* WGKeyFrameViewController.m in Sources */,
 				D6858322195A6365008CB9D1 /* main.m in Sources */,
 			);
@@ -803,6 +809,7 @@
 				D6858346195A6366008CB9D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6858347195A6366008CB9D1 /* Build configuration list for PBXNativeTarget "CoreAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -811,6 +818,7 @@
 				D6858349195A6366008CB9D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
